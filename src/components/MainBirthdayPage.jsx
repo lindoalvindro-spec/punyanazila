@@ -1239,7 +1239,7 @@ export default function MainBirthdayPage() {
           Click any photo to view in detail 📸
         </p>
 
-        {/* Stacked Tilted Polaroid Cards */}
+        {/* Stacked Tilted Photo Cards */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center' }}>
           {photoGallery.map((item) => (
             <div
@@ -1249,8 +1249,8 @@ export default function MainBirthdayPage() {
                 width: '100%',
                 maxWidth: '280px',
                 background: '#ffffff',
-                padding: '12px 12px 18px',
-                borderRadius: '8px',
+                padding: '10px',
+                borderRadius: '14px',
                 transform: `rotate(${item.rotation})`,
                 boxShadow: '0 12px 25px rgba(0,0,0,0.7)',
                 cursor: 'pointer',
@@ -1267,18 +1267,15 @@ export default function MainBirthdayPage() {
             >
               <img
                 src={item.img}
-                alt={item.title}
+                alt="Photo"
                 style={{
                   width: '100%',
-                  height: '210px',
+                  height: '240px',
                   objectFit: 'cover',
-                  borderRadius: '4px',
-                  marginBottom: '10px',
+                  borderRadius: '8px',
+                  display: 'block',
                 }}
               />
-              <p style={{ color: '#111111', fontSize: '0.88rem', fontWeight: '600', fontFamily: 'var(--font-display)' }}>
-                {item.title}
-              </p>
             </div>
           ))}
         </div>
@@ -1628,36 +1625,15 @@ export default function MainBirthdayPage() {
 
             <img
               src={selectedPhoto.img}
-              alt={selectedPhoto.title}
+              alt="Photo Detail"
               style={{
                 width: '100%',
-                maxHeight: '360px',
+                maxHeight: '75vh',
                 objectFit: 'cover',
-                borderRadius: '10px',
-                marginBottom: '14px',
+                borderRadius: '12px',
+                display: 'block',
               }}
             />
-
-            <div
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '4px',
-                padding: '4px 12px',
-                background: 'rgba(0, 210, 255, 0.12)',
-                borderRadius: '12px',
-                fontSize: '0.78rem',
-                color: '#00d2ff',
-                fontWeight: '600',
-                marginBottom: '8px',
-              }}
-            >
-              <Calendar size={12} /> {selectedPhoto.date} · {selectedPhoto.location}
-            </div>
-
-            <h4 style={{ color: '#111111', fontSize: '1rem', fontFamily: 'var(--font-display)', lineHeight: '1.3' }}>
-              {selectedPhoto.title}
-            </h4>
           </div>
         </div>
       )}

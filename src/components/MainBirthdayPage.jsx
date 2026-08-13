@@ -17,15 +17,27 @@ function LetterTypewriter() {
   const [displayedLines, setDisplayedLines] = useState([]);
 
   const letterLines = [
-    { text: "Happy birthday, sayang 🤍", style: "greeting" },
+    { text: "happy birthday yaa! 🎂🤍", style: "greeting" },
     { text: "", style: "spacer" },
-    { text: "Semoga di umur kamu yang sekarang, kamu selalu diberi kesehatan, kebahagiaan, rezeki yang lancar, dan dimudahkan dalam segala urusan.", style: "body" },
+    { text: "semoga di umur kamu yang sekarang, kamu selalu diberikan kesehatan, kebahagiaan, dan kemudahan dalam segala hal. semoga semua yang kamu cita-citakan dan semua yang lagi kamu perjuangkan bisa tercapai satu per satu. jangan pernah menyerah sama apa pun yang lagi kamu jalani yaa. kalau suatu saat semuanya kerasa berat, gapapa buat istirahat sebentar, tapi jangan berhenti. aku percaya kamu bisa ngelewatin semuanya.", style: "body" },
     { text: "", style: "spacer" },
-    { text: "Makasih ya sudah hadir di hidup aku, sudah selalu berusaha ada, nemenin aku, dan ngasih banyak hal kecil yang ternyata berarti banget buat aku. Aku mungkin belum bisa kasih kamu kado yang besar sekarang, tapi semoga ucapan kecil ini bisa jadi salah satu hal yang bikin kamu senyum hari ini. 🥹🤍", style: "body" },
+    { text: "aku juga mau bilang makasih karena kamu udah hadir di hidup aku. mungkin buat kamu kehadiran kamu biasa aja, tapi buat aku ternyata kamu punya arti yang cukup besar. tanpa kamu sadari, ada banyak hal kecil dari kamu yang bisa bikin aku semangat lagi ketika aku lagi capek atau nggak baik-baik aja. sekadar chatan sama kamu bahkan cuma tahu kalau kamu baik-baik aja, kadang udah cukup buat bikin hari aku kerasa lebih baik.", style: "body" },
     { text: "", style: "spacer" },
-    { text: "Semoga kita bisa terus sama-sama, saling jaga, saling support, dan belajar jadi lebih baik satu sama lain.", style: "body" },
+    { text: "makasih karena pernah jadi salah satu alasan aku bisa lebih semangat menjalani hari-hari aku. aku bersyukur bisa kenal sama kamu dan punya kesempatan buat mengenal kamu sejauh ini. mungkin aku nggak selalu bisa menunjukkan atau mengatakan semuanya, tapi aku benar-benar menghargai kehadiran kamu di hidup aku. 🤍", style: "body" },
     { text: "", style: "spacer" },
-    { text: "Happy birthday, my love. I love you. 🤍", style: "ps" },
+    { text: "dan kalau nanti kamu lagi punya masalah, lagi capek, atau sekadar butuh tempat buat cerita, jangan sungkan buat bilang aku yaa. aku mungkin nggak selalu punya jawaban atau solusi yang paling tepat, tapi aku bisa dengerin kamu. kamu nggak harus selalu kuat sendirian.", style: "body" },
+    { text: "", style: "spacer" },
+    { text: "aku tahu kita beda sekolah dan mungkin kita bakal semakin sibuk dengan kehidupan masing-masing. mungkin nanti kita nggak bisa sesering itu buat komunikasi. tapi aku harap kita nggak sampai jadi orang asing. aku masih ingat sama janji kamu, katanya nanti pas SMA/SMK kita bakal ketemu lagi.", style: "body" },
+    { text: "", style: "spacer" },
+    { text: "jadi jangan lupa sama janji itu yaa. aku masih nunggu hari di mana kita bisa benar-benar ketemu lagi. siapa tahu nanti kita bisa ngobrol lebih lama, jalan bareng, atau sekadar menghabiskan waktu bersama tanpa hambatan hehe. aku nggak tahu nanti kita bakal jadi apa, tapi aku berharap kalau hari itu datang, kita masih saling mengenal dan masih punya tempat untuk satu sama lain.", style: "body" },
+    { text: "", style: "spacer" },
+    { text: "untuk sekarang, kamu fokus dulu sama sekolah, impian, dan semua hal yang ingin kamu capai. aku juga akan terus menjalani jalan aku sendiri. semoga kita sama-sama tumbuh jadi versi terbaik dari diri kita masing-masing.", style: "body" },
+    { text: "", style: "spacer" },
+    { text: "sekali lagi, happy birthday yaa. makasih udah hadir di hidup aku, makasih udah bikin aku semangat, dan makasih udah jadi seseorang yang berarti buat aku. semoga tahun ini membawa banyak hal baik buat kamu. jangan lupa bahagia, jangan terlalu keras sama diri sendiri, dan jangan pernah merasa sendirian.", style: "body" },
+    { text: "", style: "spacer" },
+    { text: "kalau suatu hari nanti kamu butuh aku, bilang aja. aku selalu senang kalau bisa ada buat kamu. 🤍", style: "body" },
+    { text: "", style: "spacer" },
+    { text: "semoga janji kecil itu benar-benar bisa kita tepati. sampai nanti, kalau memang waktunya tiba. 🫶🏻", style: "ps" },
   ];
 
   // Trigger typewriter when scrolled into view
@@ -144,7 +156,7 @@ function LetterTypewriter() {
           }}
         >
           <span>💙</span>
-          <span>13 Agustus</span>
+          <span>14 Agustus</span>
           <span>💙</span>
         </div>
       </div>
@@ -313,7 +325,7 @@ function FarewellSection({ onOpenCake }) {
           fontWeight: '400',
         }}
       >
-        Happy 20th Birthday, Joe setioso 🤍. Semoga di umur 20 ini kamu selalu diberi kesehatan, kebahagiaan, dan kemudahan dalam segala urusan. I am grateful every single day to have you in my life 💗
+        Happy 13th Birthday, Bagas Agha Putro 🤍. Semoga di umur 13 ini kamu selalu diberi kesehatan, kebahagiaan, dan kemudahan dalam segala hal. Aku bersyukur bisa mengenal kamu sejauh ini 💗
       </p>
 
       {/* Center Flower Bucket PNG Ornament */}
@@ -448,7 +460,7 @@ function PersonalMessageCard() {
             fontFamily: 'var(--font-body)',
           }}
         >
-          "Aku selalu menghargai setiap effort dan hal kecil yang kamu lakukan buat aku. Dan waktu kamu bilang kata-kataku pernah membuatmu mulai menjaga sholat lagi, jujur aku terharu banget. Semoga kehadiranku selalu membawa hal baik buat kamu. 🤍"
+          "Aku bersyukur banget bisa kenal dan mengenal kamu sejauh ini. Makasih udah pernah jadi salah satu alasan aku bisa lebih semangat menjalani hari-hari aku. Kamu punya arti yang cukup besar buat aku. 🤍"
         </p>
       </div>
     </div>
@@ -509,7 +521,9 @@ export default function MainBirthdayPage() {
   const vinylRef = useRef(null);
 
   const playlist = [
-    { id: 1, title: 'Give Me Your Forever', artist: 'Zack Tabudlo', duration: '4:04', src: '/Give Me Your Forever_spotdown.org.mp3' },
+    { id: 1, title: 'Thank God I Found You', artist: 'Mariah Carey feat. Joe & 98° (StarGate Radio Edit)', duration: '4:09', src: '/Thank God I Found You (feat. Joe & 98°) - StarGate Radio Edit_spotdown.org.mp3' },
+    { id: 2, title: 'Give Me Your Forever', artist: 'Zack Tabudlo', duration: '4:04', src: '/Give Me Your Forever_spotdown.org.mp3' },
+    { id: 3, title: 'Untukku', artist: 'Chrisye', duration: '4:18', src: '/Untukku_spotdown.org.mp3' },
   ];
 
   // 2. Bouquet Flowers Compliment Messages State
@@ -552,51 +566,27 @@ export default function MainBirthdayPage() {
   const photoGallery = [
     { 
       id: 1, 
-      title: 'My Prettiest Girl 💖', 
+      title: 'Coolest Moments ✨', 
       date: 'Special Moment', 
-      location: 'Our Journey',
-      img: '/joy 1.jpeg',
+      location: 'Our Story',
+      img: '/bagas 1.jpeg',
       rotation: '-3deg'
     },
     { 
       id: 2, 
-      title: 'Sweetest Smile ✨', 
+      title: 'Sweetest Smile 🤍', 
       date: 'Special Moment', 
-      location: 'Our Journey',
-      img: '/joy 2.jpeg',
+      location: 'Our Story',
+      img: '/bagas 2.jpeg',
       rotation: '2.5deg'
     },
     { 
       id: 3, 
-      title: 'Precious Memories 🌸', 
-      date: 'Special Moment', 
-      location: 'Our Journey',
-      img: '/joy 3.jpeg',
+      title: 'Happy 13th Birthday 🌷', 
+      date: '14 Agustus Special', 
+      location: 'Our Story',
+      img: '/bagas 3.jpeg',
       rotation: '-2deg'
-    },
-    { 
-      id: 4, 
-      title: 'Favorite Moments 💕', 
-      date: 'Special Moment', 
-      location: 'Our Journey',
-      img: '/joy 4.jpeg',
-      rotation: '3deg'
-    },
-    { 
-      id: 5, 
-      title: 'Forever & Always 💫', 
-      date: 'Special Moment', 
-      location: 'Our Journey',
-      img: '/joy 5.jpeg',
-      rotation: '-1.5deg'
-    },
-    { 
-      id: 6, 
-      title: 'Happy 20th Birthday 🌷', 
-      date: '13 Agustus Special', 
-      location: 'Our Journey',
-      img: '/joy 6.jpeg',
-      rotation: '2deg'
     },
   ];
 
@@ -604,7 +594,10 @@ export default function MainBirthdayPage() {
   const jarRef = useRef(null);
   const [selectedNote, setSelectedNote] = useState(null);
   const jarNotes = [
-    "Entah kenapa, setiap kali dengar suara kamu atau ketemu kamu, rasanya capek dan bad mood aku bisa hilang begitu aja. Terima kasih sudah menjadi salah satu alasan aku banyak tersenyum. 💙"
+    "Jangan lupa sama janji kamu yaa, katanya nanti pas SMA/SMK kita bakal ketemu lagi. Aku masih nunggu hari itu! 🏫🤍",
+    "Tanpa kamu sadari, ada banyak hal kecil dari kamu yang bisa bikin aku semangat lagi ketika aku lagi capek. 🥹✨",
+    "Kalau suatu saat semuanya kerasa berat, gapapa buat istirahat sebentar, tapi jangan berhenti. Aku percaya kamu pasti bisa! 💙",
+    "Jangan pernah merasa sendirian yaa. Kalau kamu butuh tempat cerita, aku selalu senang kalau bisa ada buat kamu. 🫶🏻"
   ];
 
   // 5. Final Birthday Cake Modal State
@@ -992,7 +985,7 @@ export default function MainBirthdayPage() {
               textShadow: '0 0 20px rgba(255, 255, 255, 0.6)',
             }}
           >
-            Joe Setioso
+            Bagas Agha Putro
           </div>
         </div>
 
@@ -1055,7 +1048,7 @@ export default function MainBirthdayPage() {
             marginBottom: '28px',
           }}
         >
-          HAPPY 20TH BIRTHDAY &nbsp; 13 AGUSTUS 🤍
+          HAPPY 13TH BIRTHDAY &nbsp; 14 AGUSTUS 🤍
         </div>
 
         {/* Scroll Down Bounce Arrow */}
@@ -1064,8 +1057,7 @@ export default function MainBirthdayPage() {
         </div>
       </div>
 
-      {/* SECTION 1.5: 3D GSAP INTERACTIVE GINGHAM BIRTHDAY CARD */}
-      <GinghamBirthdayCard />
+      {/* SECTION 1.5: 3D GSAP INTERACTIVE GINGHAM BIRTHDAY CARD (HIDDEN) */}
 
       {/* SECTION 2: A DIGITAL BOUQUET WITH PERFECTLY SPACED FLOWERS & STEMS */}
       <div
@@ -1640,7 +1632,7 @@ export default function MainBirthdayPage() {
                 zIndex: 5,
               }}
             >
-              📜 SPECIAL NOTE FOR JOE SETIOSO 💙
+              📜 SPECIAL NOTE FOR BAGAS AGHA PUTRO 💙
             </div>
 
             <p style={{ marginTop: '4px', fontFamily: 'var(--font-body)' }}>
@@ -1772,10 +1764,10 @@ export default function MainBirthdayPage() {
           >
             <div style={{ fontSize: '3rem', marginBottom: '10px' }}>💖</div>
             <h3 className="neon-text" style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '8px' }}>
-              Happy 20th Birthday!
+              Happy 13th Birthday!
             </h3>
             <p style={{ fontSize: '0.9rem', color: '#e0f2fe', marginBottom: '20px' }}>
-              The most special Joe setioso 💗
+              The most special Bagas Agha Putro 💗
             </p>
 
             <button

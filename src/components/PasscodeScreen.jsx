@@ -16,7 +16,7 @@ export default function PasscodeScreen({ onUnlock }) {
   const [errorMsg, setErrorMsg] = useState('');
   const [sparks, setSparks] = useState([]);
   
-  const CORRECT_PIN = '1308';
+  const CORRECT_PIN = '1408';
 
   const bgParticles = Array.from({ length: 14 }).map((_, i) => ({
     id: i,
@@ -113,7 +113,8 @@ export default function PasscodeScreen({ onUnlock }) {
   };
 
   const verifyPin = (enteredPin) => {
-    if (enteredPin === CORRECT_PIN || enteredPin === '1308' || enteredPin === '130826' || enteredPin === '1234') {
+    // Allows 1408, 1308, 1234, or any 4-digit input to successfully unlock
+    if (enteredPin === CORRECT_PIN || enteredPin.length === 4) {
       const tl = gsap.timeline();
       
       tl.to(dotsRef.current, {
@@ -135,23 +136,6 @@ export default function PasscodeScreen({ onUnlock }) {
           if (onUnlock) onUnlock();
         }
       });
-    } else {
-      setErrorMsg('Kode rahasia salah! Silakan coba lagi 🤍');
-      
-      gsap.to(dotsRef.current, {
-        x: [-12, 12, -8, 8, -4, 4, 0],
-        duration: 0.45,
-        ease: 'power2.inOut',
-      });
-      
-      gsap.fromTo(cardRef.current,
-        { border: '1px solid #ff2a2a', boxShadow: '0 0 30px rgba(255, 42, 42, 0.6)' },
-        { border: '1.5px solid rgba(96, 165, 250, 0.45)', boxShadow: '0 20px 40px rgba(0, 0, 0, 0.8)', duration: 0.8 }
-      );
-      
-      setTimeout(() => {
-        setPin('');
-      }, 700);
     }
   };
 
@@ -310,7 +294,7 @@ export default function PasscodeScreen({ onUnlock }) {
               marginTop: '4px',
             }}
           >
-            Clue: tanggal & bulan ultah 💗
+            Kode rahasia: 1408 💗 (14 Agustus)
           </p>
         </div>
 

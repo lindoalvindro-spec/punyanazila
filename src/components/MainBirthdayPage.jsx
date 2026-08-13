@@ -526,10 +526,8 @@ export default function MainBirthdayPage() {
   const jarRef = useRef(null);
   const [selectedNote, setSelectedNote] = useState(null);
   const jarNotes = [
-    "HAPPIEST BIRTHDAY TO THE KINDEST & HOTTEST PERSON IN MY WHOLE WORLD! 🥰😚🥳🎉❤️",
-    "Happy 25th Birthday to My Favorite Human 🎂 ✨💕",
-    "Buat sayang aku... Semoga km selalu bahagia, selalu dilindungi Tuhan, sukses kuliah S-2, pekerjaannya nanti dan kedepannya, lancar rejekinya, sehat selalu, panjang umur, makin dewasa, makin sayang aku! 🥺❤️",
-    "Kalo kata iron man \"ILOVEYOU 3000\" tapi kalo kata aku \"ILOVEYOU TO THE MOON\" ☺️❤️"
+    "Jangan begadang ya sayang, makin rajin GYM-nya, semangat cutting-nya yaa🥰",
+    "Tetap menjadi dirimu ya sayangg"
   ];
 
   // 5. Final Birthday Cake Modal State
@@ -1558,7 +1556,7 @@ export default function MainBirthdayPage() {
                 zIndex: 5,
               }}
             >
-              📜 SPECIAL NOTE FOR BAGAS AGHA PUTRO 💙
+              📜 SPECIAL NOTE FOR NAZILA SYIFA MUTIARASIWI 💙
             </div>
 
             <p style={{ marginTop: '4px', fontFamily: 'var(--font-body)' }}>

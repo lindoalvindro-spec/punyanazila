@@ -186,7 +186,7 @@ function LetterTypewriter() {
             }}
           >
             <span style={{ color: '#60a5fa', fontSize: '0.85rem' }}>With all my love,</span><br />
-            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: '#38bdf8', textShadow: '0 0 10px rgba(56,189,248,0.5)' }}>Revan 🤍</span>
+            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: '#38bdf8', textShadow: '0 0 10px rgba(56,189,248,0.5)' }}>Dave 🤍</span>
           </div>
         )}
       </div>

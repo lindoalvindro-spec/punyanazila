@@ -380,7 +380,7 @@ export default function GiftUnboxing({ onOpen }) {
         }}
       >
         <Heart size={14} fill="var(--neon-pink)" color="var(--neon-pink)" />
-        <span>Sent with special love for Bagas Agha Putro 💗</span>
+        <span>Sent with special love for Nazila Syifa Mutiarasiwi 💗</span>
         <Heart size={14} fill="var(--neon-pink)" color="var(--neon-pink)" />
       </div>
     </div>

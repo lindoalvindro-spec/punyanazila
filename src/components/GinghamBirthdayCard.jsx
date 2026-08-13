@@ -164,7 +164,7 @@ export default function GinghamBirthdayCard() {
           Interactive Gift Card 🎁
         </h3>
         <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-          Tap the card to open Bagas Agha Putro's birthday surprise ✨
+          Tap the card to open Nazila Syifa Mutiarasiwi's birthday surprise ✨
         </p>
       </div>
 
@@ -221,19 +221,19 @@ export default function GinghamBirthdayCard() {
 
             {/* Inner Content */}
             <div ref={innerContentRef} style={{ opacity: 0, position: 'relative', zIndex: 2 }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-                <Sparkles size={18} color="#b4001e" />
-                <span style={{ fontSize: '0.82rem', fontWeight: '700', letterSpacing: '1px', color: '#b4001e' }}>
-                  A SPECIAL MESSAGE FOR BAGAS AGHA PUTRO
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                <Sparkles size={16} color="#b4001e" />
+                <span style={{ fontSize: '0.75rem', fontWeight: '700', letterSpacing: '0.5px', color: '#b4001e' }}>
+                  A SPECIAL MESSAGE FOR NAZILA SYIFA MUTIARASIWI
                 </span>
               </div>
 
-              <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.25rem', color: '#73000b', marginBottom: '8px' }}>
-                Happy 13th Birthday, My Favorite Person! 🎂✨
+              <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.05rem', color: '#73000b', marginBottom: '6px' }}>
+                Happy 25th Birthday to My Favorite Human 🎂✨💕
               </h4>
 
-              <p style={{ fontSize: '0.85rem', lineHeight: '1.55', color: '#590008', fontWeight: '500' }}>
-                Semoga di umur kamu yang ke-13 ini, kamu selalu diberikan kesehatan, kebahagiaan, dan kemudahan dalam segala hal. Semoga semua impianmu tercapai satu per satu! 🤍
+              <p style={{ fontSize: '0.78rem', lineHeight: '1.45', color: '#590008', fontWeight: '500' }}>
+                Buat sayang aku... Semoga km selalu bahagia, selalu dilindungi Tuhan, sukses kuliah S-2, pekerjaannya nanti dan kedepannya, lancar rejekinya, sehat selalu, panjang umur, makin dewasa, makin sayang aku, keluarga dan semuanya ya sayang 🥺❤️ Amin.
               </p>
             </div>
 
@@ -331,8 +331,8 @@ export default function GinghamBirthdayCard() {
                 }}
               >
                 <img
-                  src="/bagas 1.jpeg"
-                  alt="Bagas Agha Putro"
+                  src="/nazila 1.jpg"
+                  alt="Nazila Syifa Mutiarasiwi"
                   style={{
                     width: '100%',
                     height: '100%',

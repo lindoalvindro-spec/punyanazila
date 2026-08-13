@@ -16,7 +16,7 @@ export default function PasscodeScreen({ onUnlock }) {
   const [errorMsg, setErrorMsg] = useState('');
   const [sparks, setSparks] = useState([]);
   
-  const CORRECT_PIN = '1408';
+  const CORRECT_PIN = '1508';
 
   const bgParticles = Array.from({ length: 14 }).map((_, i) => ({
     id: i,
@@ -273,7 +273,7 @@ export default function PasscodeScreen({ onUnlock }) {
               letterSpacing: '0.5px',
             }}
           >
-            For You, My Love
+            For You, Nazila Syifa 💗
           </h2>
           <p
             className="neon-text-subtle"
@@ -284,17 +284,6 @@ export default function PasscodeScreen({ onUnlock }) {
             }}
           >
             Enter our secret code
-          </p>
-          <p
-            style={{
-              fontSize: '0.72rem',
-              color: '#38bdf8',
-              opacity: 0.75,
-              fontStyle: 'italic',
-              marginTop: '4px',
-            }}
-          >
-            Kode rahasia: 1408 💗 (14 Agustus)
           </p>
         </div>
 

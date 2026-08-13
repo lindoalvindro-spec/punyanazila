@@ -17,27 +17,15 @@ function LetterTypewriter() {
   const [displayedLines, setDisplayedLines] = useState([]);
 
   const letterLines = [
-    { text: "happy birthday yaa! 🎂🤍", style: "greeting" },
+    { text: "HAPPIEST BIRTHDAY TO THE KINDEST & HOTTEST PERSON IN MY WHOLE WORLD! 🥰😚🥳🎉❤️", style: "greeting" },
     { text: "", style: "spacer" },
-    { text: "semoga di umur kamu yang sekarang, kamu selalu diberikan kesehatan, kebahagiaan, dan kemudahan dalam segala hal. semoga semua yang kamu cita-citakan dan semua yang lagi kamu perjuangkan bisa tercapai satu per satu. jangan pernah menyerah sama apa pun yang lagi kamu jalani yaa. kalau suatu saat semuanya kerasa berat, gapapa buat istirahat sebentar, tapi jangan berhenti. aku percaya kamu bisa ngelewatin semuanya.", style: "body" },
+    { text: "Happy 25th Birthday to My Favorite Human 🎂 ✨💕", style: "greeting" },
     { text: "", style: "spacer" },
-    { text: "aku juga mau bilang makasih karena kamu udah hadir di hidup aku. mungkin buat kamu kehadiran kamu biasa aja, tapi buat aku ternyata kamu punya arti yang cukup besar. tanpa kamu sadari, ada banyak hal kecil dari kamu yang bisa bikin aku semangat lagi ketika aku lagi capek atau nggak baik-baik aja. sekadar chatan sama kamu bahkan cuma tahu kalau kamu baik-baik aja, kadang udah cukup buat bikin hari aku kerasa lebih baik.", style: "body" },
+    { text: "Iya... kamu...", style: "body" },
     { text: "", style: "spacer" },
-    { text: "makasih karena pernah jadi salah satu alasan aku bisa lebih semangat menjalani hari-hari aku. aku bersyukur bisa kenal sama kamu dan punya kesempatan buat mengenal kamu sejauh ini. mungkin aku nggak selalu bisa menunjukkan atau mengatakan semuanya, tapi aku benar-benar menghargai kehadiran kamu di hidup aku. 🤍", style: "body" },
+    { text: "Buat sayang aku... Semoga km selalu bahagia, selalu dilindungi Tuhan, sukses kuliah S-2, pekerjaannya nanti dan kedepannya, lancar rejekinya, sehat selalu, panjang umur, makin dewasa, makin sayang aku, keluarga dan semuanya ya sayang 🥺❤️ Amin.", style: "body" },
     { text: "", style: "spacer" },
-    { text: "dan kalau nanti kamu lagi punya masalah, lagi capek, atau sekadar butuh tempat buat cerita, jangan sungkan buat bilang aku yaa. aku mungkin nggak selalu punya jawaban atau solusi yang paling tepat, tapi aku bisa dengerin kamu. kamu nggak harus selalu kuat sendirian.", style: "body" },
-    { text: "", style: "spacer" },
-    { text: "aku tahu kita beda sekolah dan mungkin kita bakal semakin sibuk dengan kehidupan masing-masing. mungkin nanti kita nggak bisa sesering itu buat komunikasi. tapi aku harap kita nggak sampai jadi orang asing. aku masih ingat sama janji kamu, katanya nanti pas SMA/SMK kita bakal ketemu lagi.", style: "body" },
-    { text: "", style: "spacer" },
-    { text: "jadi jangan lupa sama janji itu yaa. aku masih nunggu hari di mana kita bisa benar-benar ketemu lagi. siapa tahu nanti kita bisa ngobrol lebih lama, jalan bareng, atau sekadar menghabiskan waktu bersama tanpa hambatan hehe. aku nggak tahu nanti kita bakal jadi apa, tapi aku berharap kalau hari itu datang, kita masih saling mengenal dan masih punya tempat untuk satu sama lain.", style: "body" },
-    { text: "", style: "spacer" },
-    { text: "untuk sekarang, kamu fokus dulu sama sekolah, impian, dan semua hal yang ingin kamu capai. aku juga akan terus menjalani jalan aku sendiri. semoga kita sama-sama tumbuh jadi versi terbaik dari diri kita masing-masing.", style: "body" },
-    { text: "", style: "spacer" },
-    { text: "sekali lagi, happy birthday yaa. makasih udah hadir di hidup aku, makasih udah bikin aku semangat, dan makasih udah jadi seseorang yang berarti buat aku. semoga tahun ini membawa banyak hal baik buat kamu. jangan lupa bahagia, jangan terlalu keras sama diri sendiri, dan jangan pernah merasa sendirian.", style: "body" },
-    { text: "", style: "spacer" },
-    { text: "kalau suatu hari nanti kamu butuh aku, bilang aja. aku selalu senang kalau bisa ada buat kamu. 🤍", style: "body" },
-    { text: "", style: "spacer" },
-    { text: "semoga janji kecil itu benar-benar bisa kita tepati. sampai nanti, kalau memang waktunya tiba. 🫶🏻", style: "ps" },
+    { text: "Kalo kata iron man \"ILOVEYOU 3000\" tapi kalo kata aku \"ILOVEYOU TO THE MOON\" ☺️❤️", style: "ps" },
   ];
 
   // Trigger typewriter when scrolled into view
@@ -156,7 +144,7 @@ function LetterTypewriter() {
           }}
         >
           <span>💙</span>
-          <span>14 Agustus</span>
+          <span>15 Agustus</span>
           <span>💙</span>
         </div>
       </div>
@@ -325,7 +313,7 @@ function FarewellSection({ onOpenCake }) {
           fontWeight: '400',
         }}
       >
-        Happy 13th Birthday, Bagas Agha Putro 🤍. Semoga di umur 13 ini kamu selalu diberi kesehatan, kebahagiaan, dan kemudahan dalam segala hal. Aku bersyukur bisa mengenal kamu sejauh ini 💗
+        Happy 25th Birthday, Nazila Syifa Mutiarasiwi 🤍. Semoga di umur 25 ini kamu selalu diberi kesehatan, kebahagiaan, sukses kuliah S-2, karir, dan kemudahan dalam segala hal 💗
       </p>
 
       {/* Center Flower Bucket PNG Ornament */}
@@ -360,7 +348,7 @@ function FarewellSection({ onOpenCake }) {
           marginBottom: '28px',
         }}
       >
-        — With love that never runs out 💙 —
+        — ILOVEYOU TO THE MOON ☺️❤️ —
       </p>
 
       {/* Happy Birthday Wish Button */}
@@ -397,76 +385,6 @@ function FarewellSection({ onOpenCake }) {
   );
 }
 
-/* ====== PERSONAL MESSAGE CARD SUB-COMPONENT ====== */
-function PersonalMessageCard() {
-  const cardRef = useRef(null);
-
-  return (
-    <div
-      ref={cardRef}
-      style={{
-        background: 'linear-gradient(165deg, rgba(10, 30, 63, 0.85) 0%, rgba(4, 16, 38, 0.92) 100%)',
-        borderRadius: '28px',
-        border: '1.5px solid rgba(96, 165, 250, 0.4)',
-        padding: '26px 20px',
-        textAlign: 'center',
-        position: 'relative',
-        boxShadow: '0 18px 40px rgba(0,0,0,0.7), inset 0 0 20px rgba(0, 210, 255, 0.1)',
-        marginBottom: '36px',
-        overflow: 'hidden',
-      }}
-    >
-      {/* Decorative Glow */}
-      <div
-        style={{
-          position: 'absolute',
-          top: '-30px',
-          left: '50%',
-          transform: 'translateX(-50%)',
-          width: '180px',
-          height: '180px',
-          borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(0, 210, 255, 0.2) 0%, transparent 70%)',
-          filter: 'blur(20px)',
-          pointerEvents: 'none',
-        }}
-      />
-
-      <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#38bdf8', fontWeight: '600', marginBottom: '6px' }}>
-        — PERSONAL MESSAGE —
-      </p>
-      
-      <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.45rem', color: '#ffffff', marginBottom: '16px' }}>
-        A Heartfelt Note For You 🤍
-      </h3>
-
-      <div
-        style={{
-          padding: '20px 18px',
-          background: 'rgba(255, 255, 255, 0.05)',
-          borderRadius: '20px',
-          border: '1px solid rgba(96, 165, 250, 0.25)',
-          boxShadow: 'inset 0 0 15px rgba(0, 210, 255, 0.08)',
-        }}
-      >
-        <p
-          style={{
-            fontSize: '0.94rem',
-            lineHeight: '1.75',
-            color: '#e0f2fe',
-            fontStyle: 'italic',
-            fontWeight: '400',
-            margin: 0,
-            fontFamily: 'var(--font-body)',
-          }}
-        >
-          "Aku bersyukur banget bisa kenal dan mengenal kamu sejauh ini. Makasih udah pernah jadi salah satu alasan aku bisa lebih semangat menjalani hari-hari aku. Kamu punya arti yang cukup besar buat aku. 🤍"
-        </p>
-      </div>
-    </div>
-  );
-}
-
 export default function MainBirthdayPage() {
   const containerRef = useRef(null);
   const heroRef = useRef(null);
@@ -477,7 +395,7 @@ export default function MainBirthdayPage() {
   const dateRef = useRef(null);
   
   // Typewriter effect state
-  const fullRomanticText = "Scroll pelan-pelan yaa, aku punya sedikit sesuatu buat kamu 🥹🤍";
+  const fullRomanticText = "HAPPIEST BIRTHDAY TO THE KINDEST & HOTTEST PERSON IN MY WHOLE WORLD! 🥰😚🥳🎉❤️";
   const [typedText, setTypedText] = useState('');
   const [isTypingDone, setIsTypingDone] = useState(false);
 
@@ -521,9 +439,7 @@ export default function MainBirthdayPage() {
   const vinylRef = useRef(null);
 
   const playlist = [
-    { id: 1, title: 'Thank God I Found You', artist: 'Mariah Carey feat. Joe & 98° (StarGate Radio Edit)', duration: '4:09', src: '/Thank God I Found You (feat. Joe & 98°) - StarGate Radio Edit_spotdown.org.mp3' },
-    { id: 2, title: 'Give Me Your Forever', artist: 'Zack Tabudlo', duration: '4:04', src: '/Give Me Your Forever_spotdown.org.mp3' },
-    { id: 3, title: 'Untukku', artist: 'Chrisye', duration: '4:18', src: '/Untukku_spotdown.org.mp3' },
+    { id: 1, title: 'Anyone', artist: 'Justin Bieber', duration: '3:10', src: '/Anyone_spotdown.org.mp3' },
   ];
 
   // 2. Bouquet Flowers Compliment Messages State
@@ -566,27 +482,43 @@ export default function MainBirthdayPage() {
   const photoGallery = [
     { 
       id: 1, 
-      title: 'Coolest Moments ✨', 
-      date: 'Special Moment', 
-      location: 'Our Story',
-      img: '/bagas 1.jpeg',
+      title: 'Beautiful Nazila 🥰', 
+      date: '15 Agustus Special', 
+      location: 'My Whole World',
+      img: '/nazila 1.jpg',
       rotation: '-3deg'
     },
     { 
       id: 2, 
       title: 'Sweetest Smile 🤍', 
-      date: 'Special Moment', 
-      location: 'Our Story',
-      img: '/bagas 2.jpeg',
+      date: 'Favorite Human', 
+      location: 'My Heart',
+      img: '/nazila 2.jpg',
       rotation: '2.5deg'
     },
     { 
       id: 3, 
-      title: 'Happy 13th Birthday 🌷', 
-      date: '14 Agustus Special', 
-      location: 'Our Story',
-      img: '/bagas 3.jpeg',
+      title: 'Kindest & Hottest 🔥❤️', 
+      date: '25th Birthday', 
+      location: 'Love Story',
+      img: '/nazila 3.jpg',
       rotation: '-2deg'
+    },
+    { 
+      id: 4, 
+      title: 'Future S-2 Student 🎓✨', 
+      date: 'Success & Happiness', 
+      location: 'Bright Future',
+      img: '/nazila 4.jpg',
+      rotation: '3deg'
+    },
+    { 
+      id: 5, 
+      title: 'ILOVEYOU TO THE MOON 🌙❤️', 
+      date: 'Forever & Always', 
+      location: 'My World',
+      img: '/nazila 5.PNG',
+      rotation: '-1.5deg'
     },
   ];
 
@@ -594,10 +526,10 @@ export default function MainBirthdayPage() {
   const jarRef = useRef(null);
   const [selectedNote, setSelectedNote] = useState(null);
   const jarNotes = [
-    "Jangan lupa sama janji kamu yaa, katanya nanti pas SMA/SMK kita bakal ketemu lagi. Aku masih nunggu hari itu! 🏫🤍",
-    "Tanpa kamu sadari, ada banyak hal kecil dari kamu yang bisa bikin aku semangat lagi ketika aku lagi capek. 🥹✨",
-    "Kalau suatu saat semuanya kerasa berat, gapapa buat istirahat sebentar, tapi jangan berhenti. Aku percaya kamu pasti bisa! 💙",
-    "Jangan pernah merasa sendirian yaa. Kalau kamu butuh tempat cerita, aku selalu senang kalau bisa ada buat kamu. 🫶🏻"
+    "HAPPIEST BIRTHDAY TO THE KINDEST & HOTTEST PERSON IN MY WHOLE WORLD! 🥰😚🥳🎉❤️",
+    "Happy 25th Birthday to My Favorite Human 🎂 ✨💕",
+    "Buat sayang aku... Semoga km selalu bahagia, selalu dilindungi Tuhan, sukses kuliah S-2, pekerjaannya nanti dan kedepannya, lancar rejekinya, sehat selalu, panjang umur, makin dewasa, makin sayang aku! 🥺❤️",
+    "Kalo kata iron man \"ILOVEYOU 3000\" tapi kalo kata aku \"ILOVEYOU TO THE MOON\" ☺️❤️"
   ];
 
   // 5. Final Birthday Cake Modal State
@@ -985,7 +917,7 @@ export default function MainBirthdayPage() {
               textShadow: '0 0 20px rgba(255, 255, 255, 0.6)',
             }}
           >
-            Bagas Agha Putro
+            Nazila
           </div>
         </div>
 
@@ -1048,7 +980,7 @@ export default function MainBirthdayPage() {
             marginBottom: '28px',
           }}
         >
-          HAPPY 13TH BIRTHDAY &nbsp; 14 AGUSTUS 🤍
+          HAPPY 25TH BIRTHDAY &nbsp; 15 AGUSTUS 🤍
         </div>
 
         {/* Scroll Down Bounce Arrow */}
@@ -1294,9 +1226,6 @@ export default function MainBirthdayPage() {
 
       {/* SECTION 3: A LETTER FOR YOU — TYPEWRITER EFFECT */}
       <LetterTypewriter />
-
-      {/* SECTION 3.5: PERSONAL MESSAGE CARD */}
-      <PersonalMessageCard />
 
       {/* SECTION 4: POLAROID PHOTO GALLERY */}
       <div style={{ textAlign: 'center', marginBottom: '36px' }}>
@@ -1764,10 +1693,10 @@ export default function MainBirthdayPage() {
           >
             <div style={{ fontSize: '3rem', marginBottom: '10px' }}>💖</div>
             <h3 className="neon-text" style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '8px' }}>
-              Happy 13th Birthday!
+              Happy 25th Birthday!
             </h3>
             <p style={{ fontSize: '0.9rem', color: '#e0f2fe', marginBottom: '20px' }}>
-              The most special Bagas Agha Putro 💗
+              The most special Nazila Syifa Mutiarasiwi 💗
             </p>
 
             <button
